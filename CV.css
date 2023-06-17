@@ -1,0 +1,147 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  color: #ffff;
+}
+.window {
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.window-wrraper {
+  flex-direction: row;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============ left =========== */
+
+.left-wrraper {
+  margin-left: 40px;
+}
+.left {
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  background-color: #1e2939;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  color: black;
+}
+#profil {
+  height: 354px;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 40px;
+}
+p {
+  margin-top: 5px;
+}
+.list-body {
+  list-style: none;
+}
+
+.list-body li::before {
+  content: "\2022";
+  color: #fb6d3a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.list-body li {
+  padding-top: 7px;
+  border-radius: nullpx;
+}
+
+.text-wrraper {
+  margin-top: 51px;
+}
+div > h1 {
+  margin-top: 47px;
+}
+
+/* =========== right =========== */
+
+.right-wrraper {
+  margin-left: 40px;
+}
+.subtitle {
+  width: 153px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.main-title {
+  width: 342px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+#personalData {
+  width: 400px;
+  height: 120px;
+  left: 498px;
+  top: 252px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.evident-in-title {
+  color: #fb6d3a;
+}
+span {
+  width: 240px;
+  height: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.list-body-of-work-experience > li {
+  width: 509px;
+  left: 514px;
+  top: 663px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0px;
+}
+.list-body-of-work-experience {
+  list-style: none;
+}
+
+.list-body-of-work-experience li::before {
+  content: "\2022";
+  color: #595959;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -40px;
+}
+
+div > h3 {
+  margin-bottom: 11px;
+}
+
+span ~ ul {
+  margin-top: 8px;
+}
